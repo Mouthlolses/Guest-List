@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convidados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="conteudo">
+
+<h1>Lista de Convidados</h1>
+
+<!-- Caixas de texto para entrada -->
+<label for="novoConvidado" >Digite o Nome do Convidado:</label><br>
+<!-- em type selecionamos o tipo de dado a ser tratado dentro desta input(caixa) -->
+<!-- utilizamos o id para que o nosso script possa utilizar o dado inserido na input(caixa)-->
+
+<input  type="text" id="novoConvidado" ><br>
+
+<!-- abaixo usamos o onclick recebendo as funçoes criadas no script com base em cada um de seus propositos-->
+<button onclick="listarConvidados()">Listar Convidados</button><br>
+
+<button onclick="adicionarConvidados()">Adicionar Convidado</button><br>
+
+<button onclick="removerConvidados()">Remover Convidado</button><br>
+
+<button onclick="textoInformativo()" class="informativo">Qual Sua Duvida?</button><br>
+
+<img src="img/posso_ajudar.png" alt="Minha Imagem" class="preciso_ajuda">
+
+<!-- abaixo vinculamos a nossa pagina web com o nosso script-->
+<script src="script.js"></script>
+
+</div>>
+</body>
+</html>

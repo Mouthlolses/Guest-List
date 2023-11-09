@@ -1,0 +1,61 @@
+body {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura da viewport como 100% */
+    display: flex;
+    gap: 20px; 
+}
+
+.preciso_ajuda{
+        position: fixed; /* Define a posição fixa na janela de visualização */
+        bottom: 0; /* Alinha a imagem no canto inferior */
+        right: 0; /* Alinha a imagem no canto esquerdo */
+        width: 500px; /* Defina a largura desejada */
+        height: auto; 
+}
+
+button{
+    background-color: #5290d6;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    border-radius: 8px;
+    padding: 10px 15px; 
+    font-size: 16px;
+}
+
+#conteudo{
+    text-align: center;
+}
+
+#conteudo input{
+    
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+label{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.informativo{
+    position: absolute; /* Define a posição fixa na janela de visualização */
+    bottom: 120px; /* Alinha a imagem no canto inferior */
+    right: 165px; /* Alinha a imagem no canto esquerdo */
+    z-index: 1;
+    background-color: #ff5757;
+    color: white;
+    cursor: pointer;
+}
+
